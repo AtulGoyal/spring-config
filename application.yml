@@ -1,0 +1,19 @@
+
+
+
+server:
+     port: 8085
+app:
+    name: "No Learning Any More"  
+    
+#List Example
+#my.value.list: 
+#Key value pair example
+
+Dbname:
+      "{ConnString:'conn string',paswd:'21313213'}"
+
+management.endpoints.web.exposure.include: "*"
+spring:
+    profiles:
+        active: test
